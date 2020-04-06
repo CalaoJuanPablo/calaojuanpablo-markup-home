@@ -18,6 +18,15 @@ a {
 	padding-right: 20px;
 }
 
+/* Hero */
+
+section#hero {
+	width: 100%;
+	height: 100vh;
+	min-height: 667px;
+	max-height: 1024px;
+}
+
 /* Header */
 
 header {
