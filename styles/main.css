@@ -25,6 +25,7 @@ section#hero {
 	height: 100vh;
 	min-height: 667px;
 	max-height: 1024px;
+	position: relative;
 }
 
 /* Header */
@@ -85,4 +86,83 @@ header nav ul li.active a {
 
 header nav ul li.active i {
 	color: #fdde4b;
+}
+
+/* Intro */
+.intro {
+	margin-top: 90px;
+}
+
+.intro h3 {
+	color: #b3b3b3;
+	font-size: 18px;
+	margin: 0;
+}
+
+.intro h1 {
+	margin: 0;
+	font-weight: 500;
+	font-size: 42px;
+}
+
+.intro h4 {
+	margin: 0;
+	font-size: 18px;
+	color: #212121;
+}
+
+.mail {
+	margin-top: 100px;
+}
+
+.mail p {
+	margin: 0;
+	font-size: 18px;
+}
+
+.scroll-icon {
+	width: 30px;
+	height: 50px;
+	border: 2px solid #000000;
+	border-radius: 50px;
+	position: absolute;
+	bottom: 3vh;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	animation-name: scroll;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+}
+
+.scroll-icon span {
+	display: block;
+	height: 6px;
+	width: 6px;
+	border-radius: 6px;
+	background-color: #000000;
+	animation-name: scroll-child;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+	0% {
+		padding-top: 32px;
+	}
+	100% {
+		padding-top: 15px;
+	}
+}
+@keyframes scroll-child {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
 }
