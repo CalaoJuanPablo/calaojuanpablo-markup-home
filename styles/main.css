@@ -113,12 +113,19 @@ header nav ul li.active i {
 }
 
 .mail {
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .mail p {
 	margin: 0;
 	font-size: 18px;
+	display: inline;
+	border-bottom: 2px solid #000000;
+	padding-bottom: 2px;
+}
+
+.mail p a {
+	text-decoration: none;
 }
 
 .scroll-icon {
@@ -199,7 +206,12 @@ header nav ul li.active i {
 		margin-bottom: 20px;
 	}
 
+	.mail {
+		margin-top: 170px;
+	}
+
 	.mail p {
 		font-size: 24px;
+		padding-bottom: 5px;
 	}
 }
