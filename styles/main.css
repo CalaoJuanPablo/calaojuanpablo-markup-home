@@ -85,6 +85,10 @@ p, li {
 	margin-bottom: 20px;
 }
 
+.ligth-gray {
+	color: #B3B3B3;
+}
+
 /* Hero */
 
 section#hero {
@@ -257,6 +261,32 @@ header nav ul li.active i {
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	gap: 20px;
+}
+
+#final {
+	text-align: center;
+}
+
+footer figure {
+	display: none;
+}
+
+footer ul {
+	margin: 0 auto;
+	padding: 0;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	max-width: 320px;
+	list-style: none;
+}
+
+footer .copy {
+	text-align: center;
+}
+
+footer ul li {
+	font-size: 30px;
 }
 
 @keyframes scroll {
